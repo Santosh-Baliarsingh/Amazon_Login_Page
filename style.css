@@ -1,0 +1,150 @@
+/* Logo Section Style */
+.logo{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 180px;
+}
+
+/* LoginFrom Section Style */
+.loginForm{
+    display: flex;
+    justify-content: center;
+}
+form{
+    border: 1px solid #d2d5da;
+    width: 360px;
+    height: 320px;
+    margin:15px 10px;
+    overflow: auto hidden;
+}
+form h1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 25px;
+}
+/* Form Label Style */
+form label{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px ;
+    font-weight:bolder;
+}
+/* Form Input Style */
+form input{
+    width: 300px;
+    height: 25px;
+    margin: 2px 25px;
+    outline: none;
+}
+form input:focus{
+    box-shadow: 1px 1px 5px #E77600;
+}
+/* Form Button Style */
+form button{
+    padding: 8px 128px;
+    margin: 15px 15px 8px 25px;
+    background:#F3CB6A;
+    border: 1px solid #8b8b8b;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+/* Form Paragraph Style */
+form p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 300px;
+    font-size: 12px;
+    margin: 10px 20px 0px 25px;
+}
+
+form p span{
+    color: rgb(65, 65, 238);
+    cursor: pointer;
+}
+form p span:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+/* Form Details Style */
+form details{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:rgb(65, 65, 238);
+    margin:10px 25px 25px 25px;
+    cursor: pointer;
+}
+summary:hover{
+    color: #DF9B00;
+}
+details p:hover{
+     text-decoration: underline;
+     color: #DF9B00;
+ }
+
+ /* Separate Section Style  */
+.separate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.separate p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 5px;
+    color: #8c8f92;
+}
+.separate .line{
+    height: 1px;
+    width: 130px;
+    background: #E1E4E9;
+}
+/* Account Button Section Style */
+.account_btn{
+    display: flex;
+    justify-content: center;
+}
+.create_account{
+    padding: 8px 100px;
+    cursor: pointer;
+}
+
+/* Footer Section Style  Starts*/
+footer{
+    border-top: 1px solid #d2d5da;
+    margin: 20px 0px 0px 0px;
+}
+.footer_links ul{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.footer_links li{
+    list-style-type: none;
+    font-size: 12px;
+    margin:0px 30px 0px 0px;
+    color: rgb(65, 65, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.footer_links li:hover{
+    color: #b8850f;
+    text-decoration: underline;
+}
+/* Copyright Section Style */
+.copyright{
+   display: flex;
+   justify-content: center;
+}
+.copyright p{
+    margin-top: -5px;
+    font-size: 14px;
+    color:#8a8b8d ;
+}
+/* Footer Section Style Ends */
